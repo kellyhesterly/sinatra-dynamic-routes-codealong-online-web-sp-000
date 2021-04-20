@@ -21,6 +21,7 @@ end
 
 get "/multiply/:num1/:num2" do
   @multiply = params[:numbers]
+  binding.pry
 
 end
 end
