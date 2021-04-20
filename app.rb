@@ -20,7 +20,7 @@ get "/goodbye/:name" do
 end
 
 get "/multiply/:num1/:num2" do
-  @multiply
-  binding.pry
+  @multiply = params[:numbers]
+  
 end
 end
